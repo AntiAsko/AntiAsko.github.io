@@ -1,9 +1,49 @@
-#test {
-    mheight: 200px;
-    width: 400px;
+body {
+        font-family: 'Merriweather Sans', Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #333;
+        margin: 2em;
+      }
 
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-top: -100px;
-    margin-left: -200px;
+      h1 {
+        font-size: 150%;
+        font-weight: normal;
+        line-height: 1.33;
+        margin: 0;
+        padding: 0;
+      }
+
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      a {
+        color: #3498db;
+        text-decoration: none;
+        border-bottom: 1px solid #eee;
+      }
+
+      a:hover {
+        border-bottom: 1px solid #3498db;
+      }
+
+      .main {
+        max-width: 30em;
+        margin: 10em auto 0 auto;
+      }
+
+      .links {
+        vertical-align: top;
+        display: inline-block;
+      }
+
+      hr {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid #eee;
+      }
+      
