@@ -39,6 +39,11 @@ body {
         vertical-align: top;
         display: inline-block;
       }
+      .construction {
+        color : red;
+        position: fixed;
+        bottom: 0;
+}
 
       hr {
         border-top: none;
