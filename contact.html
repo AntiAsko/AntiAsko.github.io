@@ -70,20 +70,22 @@
 			<div class="col-lg-8 col-lg-offset-2">
 				<form action="http://formspree.io/askoanti@gmail.com" method="POST" role="form">
 				  <div class="form-group">
-				    <input type="name" class="form-control" id="NameInputEmail1" placeholder="Your Name">
+				    <input type="text" name="name" class="form-control" id="Name" placeholder="Your Name">
 				    <br>
 				  </div>
 				  <div class="form-group">
-				    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+				    <input type="email" name="email" class="form-control" id="InputMail" placeholder="Enter email">
 				    <br>
 				  </div>
 				  <div class="form-group">
-				    <input type="subject" class="form-control" id="subjectEmail1" placeholder="Subject">
+				    <input type="text" name="_subject" class="form-control" id="subject" placeholder="Subject">
 				    <br>
 				  </div>
-				  <textarea class="form-control" rows="6" placeholder="Enter your text here"></textarea>
+				  <textarea class="form-control" name="message" rows="6" placeholder="Enter your text here"></textarea>
 				    <br>
-				  <button type="submit" class="btn btn-success">SUBMIT</button>
+				  <button type="submit" class="btn btn-success">SEND</button>
+
+          <input type="hidden" name="_next" value="/contact.html" />
 				</form>
 			</div>
 		</div><!-- /row -->
